@@ -1,20 +1,20 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url: http://www.granicare.io
+baseurl:
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Granicare
 header1: Welcome To Our Studio !
 header2: It's Nice To Meet You
 button: Voir plus
+email: contact@granicare.io
+description: "On s'occupe de vos vieux - avec amour - pour pas cher ! ♥"
 
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Naima HAMOUMA
   pic: 1
-  position: Lead Designer
+  position: zbla
   social:
     - title: twitter
       url: #
@@ -45,6 +45,17 @@ people:
     - title: google-plus
       url: #
 
+- name: Diana Petersen
+  pic: 3
+  position: Lead Developer
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
@@ -53,7 +64,7 @@ social:
     url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
+  - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
