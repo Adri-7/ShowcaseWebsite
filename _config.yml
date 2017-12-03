@@ -7,14 +7,14 @@ header1: Peur des dates de péremption ?
 header2: La sécurité en une application !
 button: Voir plus
 email: contact@granicare.io
-description: "On s'occupe de vos vieux - avec amour - pour pas cher ! ♥"
+description: "Peur des dates de péremption ?"
 
 
 # Team names, titles and social links
 people:
-- name: Naima HAMOUMA
+- name: Adrien
   pic: 1
-  position: zbla
+  position: Zbla
   social:
     - title: twitter
       url: #
@@ -23,9 +23,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Larry Parker
+- name: Naima
   pic: 2
-  position: Lead Marketer
+  position: Zbla
   social:
     - title: twitter
       url: #
@@ -34,9 +34,9 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+- name: Nathan
   pic: 3
-  position: Lead Developer
+  position: Zbla
   social:
     - title: twitter
       url: #
@@ -45,9 +45,20 @@ people:
     - title: google-plus
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Christina
+  pic: 4
+  position: Zbla
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: google-plus
+      url: #
+
+- name: Aurélien
+  pic: 5
+  position: Zbla
   social:
     - title: twitter
       url: #
@@ -59,15 +70,13 @@ people:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url:
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url:
   - title: github
-    url: http://github.com/jekyll
+    url:
 
 # Postal address (add as many lines as necessary)
 address:

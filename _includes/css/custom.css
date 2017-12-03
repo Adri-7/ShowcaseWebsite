@@ -1,0 +1,28 @@
+.team-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service-modal-header {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.service-modal-header > div.text {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.service-modal table thead tr th {
+  font-size: 25px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+.service-modal table tbody tr td{
+  height: 50px;
+  line-height: 50px;
+}
