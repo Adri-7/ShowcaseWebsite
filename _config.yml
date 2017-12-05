@@ -23,20 +23,9 @@ people:
     - title: stack-overflow
       url: #
 
-- name: Naima
-  pic: 2
-  position: Head of marketing
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Nathan
-  pic: 3
-  position: Head of consumer care
+- name: Aurélien
+  pic: 5
+  position: Head of money managment
   social:
     - title: twitter
       url: #
@@ -56,9 +45,20 @@ people:
     - title: google-plus
       url: #
 
-- name: Aurélien
-  pic: 5
-  position: Head of money managment
+- name: Naima
+  pic: 2
+  position: Head of marketing
+  social:
+    - title: twitter
+      url: #
+    - title: facebook
+      url: #
+    - title: linkedin
+      url: #
+
+- name: Nathan
+  pic: 3
+  position: Head of consumer care
   social:
     - title: twitter
       url: #
