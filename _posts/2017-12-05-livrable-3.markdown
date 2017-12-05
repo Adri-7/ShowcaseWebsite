@@ -1,0 +1,9 @@
+---
+title: Plan d'action marketing
+subtitle: Marketing
+file: tata.pdf
+layout: default
+modal-id: 3
+img: dreams.png
+description: Le document suivant détaille le plan d'action marketing que nous allons mettre en place pour le lancement de notre produit.
+---

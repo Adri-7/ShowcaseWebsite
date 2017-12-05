@@ -14,23 +14,9 @@
                         <div class="modal-body">
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
-                            <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" width="500">
+                            <p class="text-muted">{{ post.description }}</p>
+                            <a href="livrables/{{ post.file }}" class="btn btn-default">Consulter</a>
                         </div>
                     </div>
                 </div>
@@ -38,3 +24,77 @@
         </div>
     </div>
 {% endfor %}
+
+<!-- Offer modal -->
+<div class="portfolio-modal service-modal modal fade" id="service-modal" tabindex="1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <div class="service-modal-header">
+                          <img src="img/smartphone.png" width="200" style="margin-bottom: 0px"/>
+                          <div class="text">
+                            <h2>Granicare</h2>
+                            <p class="text-muted">Notre service est disponible en version lite et en version pro, voici les différences entre les 2 versions</p>
+                          </div>
+                        </div>
+
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th></th>
+                              <th>Granicare Pro</th>
+                              <th>Granicare Lite</th>
+                            </tr>
+                          </thead>
+                          <tbody class="text-muted">
+                            <tr>
+                              <td>Nombre max de frigos</td>
+                              <td>illimité*</td>
+                              <td>2</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 1</td>
+                              <td>sbla</td>
+                              <td>sbla</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 2</td>
+                              <td>inclu</td>
+                              <td>inclu</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 3</td>
+                              <td>inclu</td>
+                              <td>non inclu</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 4</td>
+                              <td>inclu</td>
+                              <td>non inclu</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 5</td>
+                              <td>inclu</td>
+                              <td>non inclu</td>
+                            </tr>
+                            <tr>
+                              <td>Feature 6</td>
+                              <td>inclu</td>
+                              <td>non inclu</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
