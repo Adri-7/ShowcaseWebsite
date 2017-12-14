@@ -26,3 +26,7 @@
   height: 50px;
   line-height: 50px;
 }
+
+.close-modal{
+  z-index: 100;
+}
