@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.primary }};
 }
 
 .text-muted {
@@ -16,6 +16,10 @@ body {
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
+}
+
+.text-secondary {
+    color: #{{ site.data.template.color.secondary }};
 }
 
 p {
@@ -375,7 +379,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: rgba({{ site.data.template.color.secondary | hex_to_rgb | join: ',' }}, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -498,7 +502,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 .timeline>li .timeline-image h4 {
