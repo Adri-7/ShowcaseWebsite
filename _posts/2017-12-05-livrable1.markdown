@@ -1,0 +1,7 @@
+---
+title: Business plan
+file: Business plan.pdf
+layout: default
+modal-id: 7
+description: Le document suivant détaille notre business plan pour le lancement de notre activité.
+---

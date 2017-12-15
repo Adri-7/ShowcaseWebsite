@@ -1,0 +1,7 @@
+---
+title: Etude Marketing
+file: Etude_marketing.pdf
+layout: default
+modal-id: 3
+description: Le document suivant détaille les élements dégagés lors de la réalisation de l'étude Marketing.
+---

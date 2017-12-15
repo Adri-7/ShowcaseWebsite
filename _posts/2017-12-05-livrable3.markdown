@@ -1,0 +1,7 @@
+---
+title: Stratégie de communication
+file: tata.pdf
+layout: default
+modal-id: 5
+description: Ce document définit notre stratégie de communication et planifie les différentes actions qui seront mises en place.
+---

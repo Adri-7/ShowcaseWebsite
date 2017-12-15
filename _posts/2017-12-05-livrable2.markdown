@@ -1,0 +1,7 @@
+---
+title: Charte de responsabilité sociétale
+file: Charte de responsabilité sociétale.pdf
+layout: default
+modal-id: 6
+description: Ce document décrit nos valeurs et nos engagement vis à vis de la responsabilité sociétale de l'entreprise.
+---
